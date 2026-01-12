@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     main
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000263C, symSize: 0xCC }
+  - { offset: 0x78, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000263C, symSize: 0xCC }
+  - { offset: 0xE0, size: 0x8, addend: 0x0, symName: _initialize, symObjAddr: 0xCC, symBinAddr: 0x100002708, symSize: 0x50 }
+  - { offset: 0x13C, size: 0x8, addend: 0x0, symName: _game, symObjAddr: 0x11C, symBinAddr: 0x100002758, symSize: 0x18C }
+  - { offset: 0x198, size: 0x8, addend: 0x0, symName: _initializeTypes, symObjAddr: 0x2A8, symBinAddr: 0x1000028E4, symSize: 0x1A0 }
+  - { offset: 0x202, size: 0x8, addend: 0x0, symName: _initializeMoves, symObjAddr: 0x448, symBinAddr: 0x100002A84, symSize: 0x210 }
+  - { offset: 0x296, size: 0x8, addend: 0x0, symName: _initializePokemons, symObjAddr: 0x658, symBinAddr: 0x100002C94, symSize: 0x440 }
+  - { offset: 0x35D, size: 0x8, addend: 0x0, symName: _initializePlayer, symObjAddr: 0xA98, symBinAddr: 0x1000030D4, symSize: 0x214 }
+  - { offset: 0x447, size: 0x8, addend: 0x0, symName: _Round, symObjAddr: 0xCAC, symBinAddr: 0x1000032E8, symSize: 0x858 }
+  - { offset: 0x5FE, size: 0x8, addend: 0x0, symName: _applyDamage, symObjAddr: 0x1504, symBinAddr: 0x100003B40, symSize: 0x268 }
+...
